@@ -1,0 +1,214 @@
+
+h1,p{
+    background-color: #f8edf4;
+        color: #74375fbb;
+        padding: 10px 20px;
+        text-align: center;
+}
+
+
+
+
+.custom-add-to-cart {
+    background-color: #f8edf4; 
+    color: #ffff; 
+    border-color: #b67294; 
+}
+
+.custom-add-to-cart:hover {
+    background-color: #b67294; 
+    border-color: #b67294; 
+}
+
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.navbar {
+  background-color: #ffff;
+  overflow: hidden;
+  color:#f8edf4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  color: #74375fbb;
+  padding: 14px 20px;
+}
+
+.search-index {
+  border: 1px solid #f8edf4;
+  padding: 10px;
+  margin: 0 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #fff4fb;
+
+}
+.search-input {
+  border: none;
+  outline: none;
+  width: 100%; 
+  background-color: transparent;
+  border-radius: 10px; 
+}
+
+.navbar a {
+  color: #74375fbb;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.navbar i {
+  margin-right: 5px;
+}
+
+.navbar a:hover {
+  background-color: #fff4fb;
+  color: #74375fbb;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navigation a {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+}
+
+
+
+.navigation button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.navigation button:hover {
+  background-color: #ddd;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%; 
+  box-sizing: border-box; 
+}
+
+.responsive .gallery {
+  border: 1px solid #ccc;
+  height: 0; 
+  padding-bottom: 100%; 
+  position: relative; 
+}
+
+.responsive .gallery img {
+  position: absolute; 
+  width: 100%; 
+  height: 100%; 
+    object-fit: cover;
+  }
+
+.responsive .desc {
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%; 
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+/* تصميم للأجهزة الصغيرة مثل الهواتف */
+@media only screen and (max-width: 600px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للهواتف */
+}
+
+/* تصميم للأجهزة الكبيرة مثل الأجهزة اللوحية */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للأجهزة اللوحية */
+}
+
+/* تصميم للأجهزة الكبيرة جدًا مثل الحواسيب */
+@media only screen and (min-width: 1025px) {
+  /* أضف قواعد CSS هنا لتعديل التصميم للحواسيب */
+}
+
